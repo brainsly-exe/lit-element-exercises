@@ -18,19 +18,19 @@ class BasicDemos extends LitElement {
         return [
             css`
                 :host {
-                display: flex;
-                flex-direction: column;
-                font-family: sans-serif;
+                  display: flex;
+                  flex-direction: column;
+                  font-family: sans-serif;
                 }
 
 
                 .demo {
-                display: block;
-                border: 1px solid #e2e2e2;
-                border-radius: 5px;
-                padding: 8px;
-                margin: 8px 0;
-                line-height: 32px;
+                  display: block;
+                  border: 1px solid #e2e2e2;
+                  border-radius: 5px;
+                  padding: 8px;
+                  margin: 20px;
+                  line-height: 32px;
                 }
             `
         ]

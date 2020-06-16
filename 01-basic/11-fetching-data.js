@@ -14,7 +14,7 @@ class FetchingData extends LitElement {
     }
 
     firstUpdated() {
-        fetch('https://servicodados.ibge.gov.br/api/v2/censos/nomes')
+        fetch('https://servicodados.ibge.gov.br/api/v2/censos/nomes', { method: 'GET' })
             .then((res) => res.json())
             .then((res) => {
                 this.response = res
