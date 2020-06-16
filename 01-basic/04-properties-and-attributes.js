@@ -1,5 +1,7 @@
 import { LitElement, html } from 'lit-element'
 
+const messagePrefix = 'The message is: '
+
 class PropertiesAndAttributes extends LitElement {
     static get properties() {
         return {

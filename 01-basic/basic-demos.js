@@ -44,7 +44,7 @@ class BasicDemos extends LitElement {
                 </div>
 
                 <div className="demo">
-                   <manage-properties></manage-properties>
+                   <manage-properties message="Hello World"></manage-properties>
                 </div>
 
                 <div className="demo">
@@ -52,11 +52,11 @@ class BasicDemos extends LitElement {
                 </div>
 
                 <div className="demo">
-                   <properties-and-attributes></properties-and-attributes>
+                   <properties-and-attributes message="Hello world"></properties-and-attributes>
                 </div>
 
                 <div className="demo">
-                   <author-profile></author-profile>
+                   <passing-properties></passing-properties>
                 </div>
 
                 <div className="demo">
@@ -64,7 +64,7 @@ class BasicDemos extends LitElement {
                 </div>
 
                 <div className="demo">
-                   <conditional-rendering></conditional-rendering>
+                   <conditional-rendering  message="Hello world"></conditional-rendering>
                 </div>
 
                 <div className="demo">

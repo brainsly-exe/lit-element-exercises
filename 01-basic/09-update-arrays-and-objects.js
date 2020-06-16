@@ -12,7 +12,7 @@ class UpdateArraysAndObjects extends LitElement {
         super()
 
         this.myObject = { id: 1, text: "foo" }
-        this.myObject = [{ id: 1 }, { id: 2 }]
+        this.myArray = [{ id: 1 }, { id: 2 }]
     }
 
     render() {

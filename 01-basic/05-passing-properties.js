@@ -29,6 +29,8 @@ class PassingProperties extends LitElement {
     }
 }
 
+customElements.define('passing-properties', PassingProperties)
+
 class AuthorProfile extends LitElement {
     static get properties() {
         return {
